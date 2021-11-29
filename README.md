@@ -27,7 +27,7 @@ O site é responsivo: adaptável para computadores, tablets e smartphones.
  ### 🖥️ Layout ###
 
 
-![Mockup Site](https://github.com/evycastro/confraria-da-poesia/blob/main/img/mockup.jpg)
+![Mockup Site](https://github.com/evycastro/confraria-da-poesia/blob/main/img/mockup.png)
 
 
 Acesse o projeto [aqui](https://evycastro.github.io/confraria-da-poesia/).
