@@ -1,0 +1,276 @@
+/* Estilos Gerais */
+body {
+  background: #dcdcdc;
+  font-family: Futura Md BT;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.aqui {
+  padding: 10px;
+  display: inline;
+  border-radius: 10px;
+  border-width: 20px;
+}
+
+.aqui:hover {
+  background: #fff;
+  color: #845050;
+  font-style: bold;
+}
+
+.aqui:active {
+  background: #fff;
+  color: #845050;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+  padding: 20px 0;
+}
+
+.header_menu {
+  text-align: center;
+  padding-right: auto;
+}
+
+.header_menu ul li {
+  display: inline;
+}
+
+.header_menu ul li a {
+  font-family: Futura Md BT;
+  font-size: 18px;
+  font-weight: bold;
+  color: #845050;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-right: 50px;
+}
+
+.header_menu ul li a:hover {
+  color: #778899;
+}
+
+/* Introdução */
+.introducao {
+  width: 100%;
+  height: 400px;
+  background: url("../img/reading-a-book.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.introducao h1 {
+  font-family: Futura Md BT;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.introducao p {
+  font-family: Script MT Negrito;
+  font-style: italic;
+  font-size: 36px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 1%;
+}
+
+/*Poetas*/
+
+h2 {
+  text-transform: uppercase;
+
+}
+
+.poetas {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+  h3 {
+    text-transform: uppercase;
+}
+
+.post {
+  font-family: Futura Md BT;
+  color: #44505c;
+  text-align: center;
+  padding: 20px 0 20px 0;
+  grid-area:post;
+}
+
+.post h2 {
+  font-family: Futura Md BT;
+  padding-bottom: 20px;
+  letter-spacing: 0.2em;
+  color: #44505c;
+  border-style: dotted;
+  border-bottom-width: 3px;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+
+.post_poetas {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  margin: 20px;
+}
+
+.post_poesias {
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.post li {
+  margin: 50px;
+  list-style-type: none;
+}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  height: 100px;
+  grid-area: footer;
+}
+
+.quebra {
+  width: 100%;
+  height: 100px;
+  background: url("../img/footer.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 50px;
+}
+
+.quebra {
+  font-family: Script MT Negrito;
+  font-style: italic;
+  font-size: 20px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.quebra_autor p {
+  font-family: Futura Md BT;
+  font-size: 18px;
+  color: #ffffff;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+/*Contato*/
+.contato {
+  width: 100%;
+  padding: 25px;
+  background: #fff;
+  font-style: bold;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #845050;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1366px)
+{
+  /*Footer*/
+  
+.footer img{
+width: 100%;
+height: auto;
+padding: 0 0 0 0;
+}
+
+.contato{
+  width: 100%;
+  height: auto;
+  }
+  }
+
+/*Final do estilo para tablets*/
+
+
+/*Estilo para smartphones*/
+
+@media only screen and (max-width:812px)
+{
+
+  /*Header*/
+
+  .header_menu {
+    background-size: auto;
+    text-align: center;
+    margin-right: -50px;
+    display: block;
+
+     }
+
+  .header_menu ul li a {
+    font-size: 14px;
+    margin: 10px;
+    height: 20px;
+    display: block;
+    }
+
+  /*Introdução*/
+
+  .introducao {
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 40px;
+    background: url("../img/bg-intro-mobile.jpg") no-repeat center absolute;
+  }
+  .introducao h1 {
+    font-size: 30px;
+    padding-top: 140px;
+    }
+
+  .introducao p {
+    font-size: 24px;
+    word-break:normal;
+  }
+
+  /*Quebra*/
+
+.quebra {
+  font-size: 18px;
+  padding-left: 5px;
+  text-align: center;
+  display:inline-table;
+}
+
+.quebra_autor {
+  font-size: 28px;
+  text-align: center;
+  display:inline-table;
+}
+
+.contato {
+  text-align: center;
+  padding-left: 5px;
+  display:inline-table; 
+  word-break:keep-all;
+}
+}
+
+  
+  /*Final do estilo para smartphone*/
